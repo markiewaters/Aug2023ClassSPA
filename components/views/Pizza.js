@@ -1,5 +1,5 @@
 import html from "html-literal";
-export default () => html`
+export default (state) => html`
   <section id="pizza">
     <table id="pizzas">
       <tr>

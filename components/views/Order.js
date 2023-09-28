@@ -1,5 +1,5 @@
 import html from "html-literal";
-export default () => html`
+export default (state) => html`
   <section id="order">
     <form id="order" method="POST" action="">
       <h2>Order a pizza</h2>
